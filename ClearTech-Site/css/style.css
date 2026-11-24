@@ -1,0 +1,212 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    align-items: center;
+    flex-flow:  row wrap;
+    position: fixed;
+    width: 100%;
+    z-index: 999; /* posicionada sempre no topo*/
+    background: #ffffff;
+    border-bottom: solid #332e3e 1px;
+
+    transition: transform 0.8s ease-in-out;
+}
+
+.header-hidden {
+  transform: translateY(-100%);
+}
+
+
+.logo{
+    display: flex;
+    flex: 25%;
+    margin: 0.5%;
+    text-align: left;
+    padding: 8px;
+}
+
+.logo img{
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+.logo h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #332e3e;
+    font-size: 2.5rem;
+    margin-left: 15px;
+    -webkit-text-stroke: 1px green;
+}
+.menu{
+    flex: 20%;
+    text-align: right;
+    padding: 30px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #332e3e;
+    font-size: 1.5em;
+    padding: 20px 16px;
+    margin-right: 20px;
+}
+.menu a:hover{
+    color: #2EA85D;
+    border-top: 4px solid #332e3e;
+}
+
+#botao{
+    background-color: #332e3e;
+    padding: 10px 25px;
+    color: #f9f9f6;
+    border-radius: 5px;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background-color: #2EA85D;
+
+}
+
+#Banner_principal{
+    padding-top: 10%;
+    width: 100%;
+    height: 700px;
+}
+
+#Banner_principal img{
+    width: 100%;
+    height: 480px;
+}
+
+.paragrafo{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+footer{
+    align-content: center;
+    bottom: 100%;
+    width: 100%;
+    height: 120px;
+    margin-top: auto;
+    border-top: 2px rgb(29, 28, 28) solid;
+    background-color: #2EA85D;
+    margin-top: 12px;
+}
+
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#titulo-box{
+    margin-left: 4%;
+    display: flex;
+    gap: 20px;
+}
+
+.caixa img{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+.titulo-caixa{  
+    width: 92%;
+    margin-left: 4%;
+    display: flex;
+    gap: 10px;
+}
+
+.caixa{
+    margin-top: 10px;
+    width: 92%;
+    border: #2EA85D solid 3px;
+    border-radius: 26px;
+    margin-left: 4%;
+    background-color: rgb(255, 242, 225);
+}
+
+.caixa p{
+    width: 89%;
+    margin-left: 6%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+}
+
+.titulo-central{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.caixa-download{
+    margin-top: 10px;
+    width: 92%;
+    border: #2EA85D solid 3px;
+    border-radius: 26px;
+    margin-left: 4%;
+    background-color: rgb(255, 242, 225);
+    align-content: center;
+}
+
+#qrcode{
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+#download-links{
+    margin-left: 4%;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+#download-links a{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-weight: bold;
+}
+
+#Lista-item{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+#titulo-beneficios{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
